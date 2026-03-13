@@ -1,9 +1,36 @@
-/app
-/build
-/build.gradle.kts
-/gradle
-/gradle.properties
-/gradlew
-/gradlew.bat
-/local.properties
-/settings.gradle.kts
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local machine config
+local.properties
+
+# Android Studio / IntelliJ
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iml
+
+# Native build outputs
+.externalNativeBuild/
+.cxx/
+
+# Logs and reports
+*.log
+
+# Build artifacts
+captures/
+*.apk
+*.aab
+
+# Signing keys
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db
